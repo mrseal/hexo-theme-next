@@ -306,8 +306,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: mrseal
   count: true
 
 # Hypercomments
@@ -379,7 +379,7 @@ facebook_sdk:
   enable: false
   app_id:       #<app_id>
   fb_admin:     #<user_id>
-  like_button:  #true
+  like_button:  true
   webmaster:    #true
 
 # Facebook comments plugin
