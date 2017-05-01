@@ -27,8 +27,8 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}"
-               alt="{{ theme.author }}" />
-          <p class="site-author-name" itemprop="name">{{ theme.author }}</p>
+               alt="{{ theme.title }}" />
+          <p class="site-author-name" itemprop="name">{{ theme.title }}</p>
            {% if theme.seo %}
               <p class="site-description motion-element" itemprop="description">{{ theme.signature }}</p>
            {% else %}
